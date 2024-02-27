@@ -1,1 +1,1 @@
-# yarema
+# This is a landing page for Yarema
