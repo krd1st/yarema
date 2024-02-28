@@ -1,0 +1,26 @@
+.video {
+  height: 100vh;
+
+  // border: solid 5px red;
+}
+
+.video__title {
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: 600;
+
+  margin-bottom: 40px;
+}
+
+.video__player {
+  width: 960px;
+  height: 540px;
+
+  border: solid 3px black;
+  border-radius: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}

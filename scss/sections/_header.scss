@@ -1,0 +1,30 @@
+.header .container {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // border: solid 5px red;
+}
+
+.header__logo {
+  font-size: 32px;
+  line-height: 1;
+  color: black;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__list {
+  display: flex;
+  gap: 50px;
+}
+
+.header__link {
+  font-size: 24px;
+  color: black;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

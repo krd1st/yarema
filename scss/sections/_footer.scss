@@ -1,0 +1,15 @@
+.footer .container {
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // border: solid 5px red;
+}
+
+.footer__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}

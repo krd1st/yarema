@@ -1,0 +1,33 @@
+.hero {
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  // border: solid 5px red;
+}
+
+.hero__title {
+  max-width: 1400px;
+  width: 90%;
+
+  font-size: 84px;
+  font-weight: 700;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.hero__subtitle {
+  max-width: 900px;
+  width: 70%;
+
+  font-size: 28px;
+  font-weight: 500;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
