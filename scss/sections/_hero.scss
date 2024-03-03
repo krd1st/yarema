@@ -4,15 +4,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  // border: solid 5px red;
 }
 
 .hero__title {
-  max-width: 1400px;
-  width: 90%;
-
-  font-size: 84px;
+  font-size: 6vw;
   font-weight: 700;
 
   margin-left: auto;
@@ -21,10 +16,10 @@
 }
 
 .hero__subtitle {
-  max-width: 900px;
-  width: 70%;
+  max-width: 50%;
 
-  font-size: 28px;
+  // font-size: 28px;
+  font-size: 2vw;
   font-weight: 500;
 
   margin-left: auto;

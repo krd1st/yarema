@@ -3,17 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  // border: solid 5px red;
 }
 
 .header__logo {
-  font-size: 32px;
-  line-height: 1;
-  color: black;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header__list {

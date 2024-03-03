@@ -7,6 +7,10 @@ body {
   font-optical-sizing: auto;
 }
 
+section {
+  height: 100vh;
+}
+
 p,
 h1,
 h2,
@@ -181,11 +185,8 @@ img {
 }
 
 .header__logo {
-  font-size: 32px;
-  line-height: 1;
-  color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header__list {
@@ -209,9 +210,7 @@ img {
 }
 
 .hero__title {
-  max-width: 1400px;
-  width: 90%;
-  font-size: 84px;
+  font-size: 6vw;
   font-weight: 700;
   margin-left: auto;
   margin-right: auto;
@@ -219,17 +218,12 @@ img {
 }
 
 .hero__subtitle {
-  max-width: 900px;
-  width: 70%;
-  font-size: 28px;
+  max-width: 50%;
+  font-size: 2vw;
   font-weight: 500;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
-
-.video {
-  height: 100vh;
 }
 
 .video__title {
@@ -247,10 +241,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
-
-.instruction {
-  height: 100vh;
 }
 
 .instruction__list {
@@ -281,10 +271,6 @@ img {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-}
-
-.testimonials {
-  height: 100vh;
 }
 
 .testimonials__title {
@@ -326,10 +312,6 @@ img {
   aspect-ratio: 3/1;
   border: solid 3px black;
   border-radius: 10px;
-}
-
-.pricing {
-  height: 100vh;
 }
 
 .pricing__title {
@@ -382,10 +364,6 @@ img {
   font-size: 20px;
 }
 
-.questions {
-  height: calc(100vh - 120px);
-}
-
 .questions__title {
   text-align: center;
   font-size: 48px;
@@ -410,15 +388,6 @@ img {
   border-bottom-left-radius: 20px;
 }
 
-.footer .container {
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer__title {
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
+section {
+  border-bottom: 10px solid red;
 }/*# sourceMappingURL=main.css.map */

@@ -10,4 +10,12 @@
 @import "./sections/testimonials";
 @import "./sections/pricing";
 @import "./sections/questions";
-@import "./sections/footer";
+// @import "./sections/footer";
+
+section {
+  border-bottom: 10px solid red;
+}
+
+// header {
+//   border-bottom: 10px solid red;
+// }
